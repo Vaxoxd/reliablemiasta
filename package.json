@@ -1,0 +1,38 @@
+
+{
+  "name": "reliable-cities",
+  "version": "0.7.0",
+  "description": "Gra polegająca na zgadywaniu miast na podstawie wskazówek, zdjęć i stolic",
+  "main": "index.html",
+  "scripts": {
+    "start": "static-web-server -w ./.config/static-web-server.toml",
+    "serve": "static-web-server -p 5000 -d .",
+    "build": "echo 'Static build completed'",
+    "dev": "static-web-server -p 5000 -d . --log-level debug"
+  },
+  "keywords": [
+    "game",
+    "cities",
+    "geography",
+    "quiz",
+    "polish",
+    "javascript",
+    "html5"
+  ],
+  "author": "Rzetelne Studio",
+  "license": "MIT",
+  "devDependencies": {
+    "static-web-server": "^2.24.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vaxoxd/reliablemiasta.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Vaxoxd/reliablemiasta/issues"
+  },
+  "homepage": "https://github.com/Vaxoxd/reliablemiasta#readme"
+}
